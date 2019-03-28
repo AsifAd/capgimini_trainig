@@ -4,44 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Log in</title>
+    <style>
+            form{
+                border: 1px solid blueviolet;
+                background-color: blue;
+                color: aliceblue
+                }
+            label{
+                font-family: 'Times New Roman', Times, serif;
+                
+            }
+    </style>
 </head>
 <body>
-    <nav>
-        <div class="nav">
-            <h1>facebook</h1>
-            <button class="btn-signup" >Sign Up</button>
-        </div>
-        
-        <main>
-            <article>
-                <section>
-                    <div class="section-1">
-                        <h2>
-                            Log in to Facebook
-                        </h2>
-                        <input type="email" placeholder="Email address or phone number" id="email">
-                        <br>
-                        <br>
-                        <input type="password" placeholder="Password"
-                        id="pass" >
-                        <br>
-                        <br>
-                        <button class="btn-login">Log in</button>
-                        <br>
-                        <br>
-                        <p class="bluecolor">Forgotten account?</p>
-                        <br>
-                        <!-- <div class="right"><hr></div>
-                        <div class="left"><hr></div> -->
-                        <p id="or">or</p>                            
-                        <br>
-                        <button class="btn-createac">Create New Account</button>
-                    </div>
-                </section>
-            </article>
-        </main>
-    </nav>
+    <center>
+        <form action="#">
+            
+                <h2>Login</h2>
+                <label for="">Email-id or phone</label>
+                <br>
+                <input type="email" placeholder="Email-id or phone" required><br>
+                <label for="">Password</label>
+                <br>
+                <input type="password" placeholder="password" required>
+                <br>
+                <br>
+                <button><a href="./home.html">Login</a></button>
+                
+        </form>
+    </center>
 </body>
 </html>
